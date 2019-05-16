@@ -2,6 +2,6 @@
 
 <h2>How it works</h2>   
 <ul>
-  <li>Use some Server for run</li>  
+  <li>Use any server to run</li>  
 </ul>
  
