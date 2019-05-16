@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>test-module-js</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        #screen {
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            width: 100%;
+            margin-bottom: 5px;
+            padding: 5px;
+            background: #a6bb00;
+            min-height: 70px;
+            font-size: 35px;
+            overflow: hidden;
+        }
+
+        .button {
+            margin: 1px;
+        }
+
+        .jumbotron {
+            max-width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Vanilla JS Modules test</h1>
+
+        <div class="jumbotron">
+            <div class="row">
+                <div id="screen">0</div>
+            </div>
+
+            <div class="row">
+                <button type="button" class="btn btn-primary button">1</button>
+                <button type="button" class="btn btn-primary button">2</button>
+                <button type="button" class="btn btn-primary button">3</button>
+                <button type="button" class="btn btn-primary button">4</button>
+                <button type="button" class="btn btn-primary button">5</button>
+                <button type="button" class="btn btn-primary button">6</button>
+                <button type="button" class="btn btn-primary button">7</button>
+                <button type="button" class="btn btn-primary button">8</button>
+                <button type="button" class="btn btn-primary button">9</button>
+                <button type="button" class="btn btn-primary button">0</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-primary button">.</button>
+                <button type="button" class="btn btn-primary button">+</button>
+                <button type="button" class="btn btn-primary button">-</button>
+                <button type="button" class="btn btn-primary button">*</button>
+                <button type="button" class="btn btn-primary button">/</button>
+                <button type="button" class="btn btn-success" id="equal">=</button>
+                <button type="button" class="btn btn-danger" id="clearButton">С</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script> -->
+
+    <script type="module" src="src/modules/components/app.js"></script>
+</body>
+
+</html>
